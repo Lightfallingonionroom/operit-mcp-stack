@@ -1,0 +1,70 @@
+{
+  "_comment": "Operit 接入片段。实际文件：/sdcard/Download/Operit/mcp_plugins/mcp_config.json。修改前先备份。",
+  "mcpServers": {
+    "ncm_music": {
+      "args": [],
+      "autoApprove": [],
+      "command": "http",
+      "disabled": false,
+      "env": {}
+    },
+    "paper_search": {
+      "args": [],
+      "autoApprove": [],
+      "command": "http",
+      "disabled": false,
+      "env": {}
+    },
+    "academix": {
+      "args": [],
+      "autoApprove": [],
+      "command": "http",
+      "disabled": false,
+      "env": {}
+    }
+  },
+  "pluginMetadata": {
+    "ncm_music": {
+      "author": "Unknown",
+      "connectionType": "httpStream",
+      "description": "网易云音乐 MCP 服务",
+      "disabled": false,
+      "endpoint": "http://127.0.0.1:3001",
+      "id": "ncm_music",
+      "isInstalled": true,
+      "longDescription": "通过 HTTP 连接到本地 NCM API 服务",
+      "name": "Ncm Music",
+      "repoUrl": "",
+      "type": "remote",
+      "version": "1.0.0"
+    },
+    "paper_search": {
+      "author": "Unknown",
+      "connectionType": "httpStream",
+      "description": "学术文献搜索（arXiv/Semantic Scholar/Crossref/PubMed 等 14 平台）",
+      "disabled": false,
+      "endpoint": "http://127.0.0.1:3010/mcp",
+      "id": "paper_search",
+      "isInstalled": true,
+      "longDescription": "本地 stdio MCP，经 supergateway 转为 streamableHttp",
+      "name": "Paper Search",
+      "repoUrl": "",
+      "type": "remote",
+      "version": "1.0.0"
+    },
+    "academix": {
+      "author": "Unknown",
+      "connectionType": "httpStream",
+      "description": "学术元数据聚合（arXiv/Crossref/DBLP/OpenAlex）",
+      "disabled": false,
+      "endpoint": "http://127.0.0.1:3014/mcp",
+      "id": "academix",
+      "isInstalled": true,
+      "longDescription": "本地 stdio MCP，经 supergateway 转为 streamableHttp",
+      "name": "Academix",
+      "repoUrl": "",
+      "type": "remote",
+      "version": "1.0.0"
+    }
+  }
+}
