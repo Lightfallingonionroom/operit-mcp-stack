@@ -1,5 +1,7 @@
 # operit-mcp-stack
 
+**中文** | [English](README.en.md)
+
 把自托管 MCP 服务接进 Operit 的通用栈：supergateway 桥接 + 统一启动脚本 + shell 自愈钩子。
 
 ## 简介
